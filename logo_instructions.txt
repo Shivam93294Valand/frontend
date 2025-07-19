@@ -1,0 +1,15 @@
+To implement Option 1 (replacing the existing logo):
+
+1. Create a new logo image with dimensions of approximately 40x40 pixels
+2. Name the file "ic_logo.png"
+3. Replace the existing file at "assets/images/ic_logo.png" with your new logo file
+
+Your logo should:
+- Have a transparent background if possible
+- Be clearly visible against both light and dark backgrounds
+- Represent your app's brand identity
+
+After replacing the logo file, run the app again with:
+flutter run -d YOUR_DEVICE_ID
+
+No code changes are needed with this approach since the app is already configured to use this file path.
